@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>John GZ</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+
+    <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mi Portafolio</title>
+
+    <!-- circulos  -->
+    <style>
+    .circle {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    
+        .circle.filled {
+            background-color: black;
+            width: 25px;  
+            height: 25px;
+
+        }
+        .circle.empty {
+            border: 2px solid gray;
+        }
+    
+        .tech-wrapper { /*para alinear*/
+            display: flex;        
+            align-items: center;  
+            margin-bottom: 10px;  /*espaciado con lo de abajo*/
+        }
+
+    .menu {
+    position: absolute; /*al tope der*/
+    right: 0; 
+    background-color: transparent;
+    padding: 10px;
+    text-align: right;
+    }
+
+        .menu lista {
+            list-style-type: none;  /*no puntos*/
+            margin: 0;
+            padding: 0;
+            display: flex;          
+            justify-content: center;
+        }
+
+        .menu lista item {
+            margin: 0 15px; /* espaciado*/
+        }
+
+        .menu lista item a {
+            text-decoration: none; /*quita subrayado*/
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .menu lista item a:hover {
+                color: #fc4e03;
+        }
+
+        /*formulario*/
+        .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 500px;  
+        margin: 0;
+        }   
+
+            .contact-form label {
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                margin-bottom: 15px;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                font-size: 16px;
+                width: 100%;
+            }
+
+            .contact-form button {
+                padding: 10px 20px;
+                background-color: #333;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                width: 170px;
+                margin-left:65%;
+            }
+
+            .contact-form button:hover {
+                background-color: #fc4e03;
+            }
+
+    .cajaformulario{
+        background-color: #cad2de;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 10px;
+        width: 520px;
+        
+        
+    }
+    </style>
+    
+        
+
+    
+</head>
+<body>
+
+
+
+<body>
+    <header>
+        <h3>✅ Juan Ignacio Gumiela Zalabardo</h3>
+        <!--MENU-->
+        <nav class="menu">
+            <lista>
+                <item><a href="#inicio">Inicio</a></item>
+                <item><a href="#sobremi">Sobre mí</a></item>
+                <item><a href="#conocimientos">Conocimientos</a></item>
+                <item><a href="#proyectos">Proyectos</a></item>
+                <item><a href="#contacto">Contacto</a></item>
+            </lista>
+        </nav>
+
+    </header>
+    <section class="uno" id = "inicio">
+        <div class="caja-central">
+            <div class="caja-cara">
+                <img class="cara" src="https://i.imgur.com/KWgarni.jpeg" alt="johngz">            
+            </div>
+            <div class="caja-presentacion">
+                <div>    
+                    <h1>Hola 🚀</h1>
+                    <p class="presentacion">
+                        Saludos! Mi nombre es Juan
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi" class="dos">
+        <h2>Sobre mí</h2>
+        <p>
+            Acá tenés que poner una breve introducción sobre vos, sobre tu perfil y qué hacés. Por ejemplo:
+            Soy estudiante autodidacta de programación desde febrero 2021. He realizado algunos cursos como 
+            bla y bla con ble y bli en blo y blu... y un toque más, 3, 4, 5 renglones.
+            Otra: soy estudiante de programación en la x universidad, curso x carrera, estoy en x año... tengo
+            conocimientos en.... he realizado... bla bla.
+            Inicie como iniciado en programacion con mi un tutor personal y cursos  
+        </p>
+            <h2 id="conocimientos" >Conocimientos</h2>
+            <p>
+                Estas son algunas de las tecnologías de las que tengo conocimientos.
+            </p>
+            <div class="python">
+                <div class="tech-wrapper">
+                    <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" class="tech" alt="Python Logo" style="width: 100px; margin-right: 10px;">
+                    <span class="circle filled"></span>
+                    <span class="circle filled"></span>
+                    <span class="circle filled"></span>
+                    <span class="circle empty"></span>
+                    <span class="circle empty"></span>
+                </div>  
+                <div class="c++">
+                    <div class="tech-wrapper">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png" alt="C++" style="width: 100px; margin-right: 10px;">
+                    <span class="circle filled"></span>
+                    <span class="circle filled"></span>
+                    <span class="circle filled"></span>
+                    <span class="circle filled"></span>
+                    <span class="circle empty"></span>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class ="csharp">
+                <div class="tech-wrapper"style="margin-left: -4px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" class="tech"alt="CSHARP" style="width: 100px; margin-right: 10px;">
+                <span class="circle filled"></span>
+                <span class="circle empty"></span>
+                <span class="circle empty"></span>
+                <span class="circle empty"></span>
+                <span class="circle empty"></span>
+                </div>
+
+
+        </div>
+        <h2>Cursos realizados</h2>
+        <ul>
+            <li>Curso de Fundamentos de la Programación Nivel Universidad [GRATIS] 👉 <a href="maxiprograma.com/seh">Ver</a></li>
+            <li>Curso de Programación con C# Nivel 1 [Desde Cero]</li>
+            <li>Curso de Programación con C# Nivel 2: POO + .NET + SQL</li>
+            <li>Curso de Programación con C# Nivel 3: Web ASP .NET Parte 1</li>
+        </ul>
+    </section>
+    <section class="tres">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos">
+            <div class="card">
+                <h3>Juego de Mesa</h3>
+                <img src="https://i.imgur.com/4vgrsEz.jpeg" alt="generala">
+                <p>
+                    Primer Proyecto en C++ con modelo de cascada y funciones del clasico juego de dados "Generala"<br>
+                    hecho en mi 1º año de cursada.
+                    
+                </p>
+                <a>👉</a><a href="https://github.com/jgumielazal/firstProjectGenerala" target="_blank">Ver</a>
+            </div>
+            <div class="card">
+                <h3>App de administracion</h3>
+                <img src="https://i.imgur.com/BpLDC94.png" alt="App de administracion">
+                <p>
+                    Proyecto en grupo con el uso de C# y el .NET framework para administracion de productos comerciables.<br>Con la posibilidad de agregar, quitar o modificar elementos.
+                </p>
+                <a>👉</a><a href="https://github.com/SamuelVillalba7/tp-winform-equipo-18B" target="_blank">Ver</a>
+            </div>
+           
+        </div>
+    </section>
+    <footer>
+        <h2>Contacto</h2>
+            <div class="contacto" id="contacto"style="margin-bottom:50px">
+                <a href="https://www.instagram.com/john.g.z/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" class="red-social" alt="" style="margin-right: 20px;"> 
+                    
+                </a>
+                
+                <a href="https://github.com/jgumielazal" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="red-social" alt="">
+                </a>
+            </div>
+
+            <div class = "cajaformulario">
+                <form class="contact-form">
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Tu email">
+                                
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="" placeholder="Tu mensaje"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+
+            
+    </footer>
+</body>
+</html>
